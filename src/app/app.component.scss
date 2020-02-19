@@ -1,0 +1,13 @@
+@import '../sass/variables';
+@import '../sass/base';
+
+.background-image {
+  background-image: linear-gradient( 
+    to right bottom,
+    rgba(#111, 0.8), 
+    rgba(#fff, 0.8)),
+    url(../assets/img/background.png);
+  background-size: cover;
+  height: 100vh;
+  border-bottom: $color-blue-primary solid 2px;
+}

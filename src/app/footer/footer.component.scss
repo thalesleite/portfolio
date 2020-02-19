@@ -1,0 +1,42 @@
+@import "../../sass/variables";
+@import "../../sass/base";
+
+.contact {
+  background-color: #bfbed0;
+  color: $color-blue-dark;
+
+  .email {
+    padding-bottom: 1rem;
+  }
+
+  .social {
+    a {
+        font-size: 3rem;
+        padding: .8rem;
+    }
+
+    .fa-facebook,
+    .fa-github,
+    .fa-linkedin,
+    .fa-twitter,
+    .fa-instagram {
+        color: $color-blue-dark;
+    }
+
+    .fa-github:hover {
+        color: #000;
+    }
+    .fa-facebook:hover {
+        color: #3b5998;
+    }
+    .fa-linkedin:hover {
+        color: #069;
+    }
+    .fa-twitter:hover {
+        color: #00aced;
+    }
+    .fa-instagram:hover {
+        color: #517fa4;
+    }
+  }
+}
