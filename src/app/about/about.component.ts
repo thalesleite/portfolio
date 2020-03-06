@@ -8,21 +8,21 @@ import { Component, OnInit } from '@angular/core';
 export class AboutComponent implements OnInit {
   dev = {
     js: 80,
-    angular: 60,
+    angular: 50,
     react: 65,
-    node: 50,
+    node: 40,
     php: 70,
-    java: 50,
-    c: 50,
+    java: 40,
+    c: 40,
     rest: 80,
     ajax: 80
   }
 
   ui = {
-    html: 85,
-    css: 80,
-    sass: 80,
-    design: 80,
+    html: 90,
+    css: 75,
+    sass: 75,
+    design: 70,
     photoshop: 50,
     xd: 50
   }
@@ -30,7 +30,7 @@ export class AboutComponent implements OnInit {
   db = {
     oracle: 70,
     mysql: 70,
-    postgre: 60,
+    postgre: 70,
     nosql: 50
   }
   
