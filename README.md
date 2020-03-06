@@ -29,3 +29,9 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 
 ## deploy github-pages
 ng build --prod --output-path docs --base-href /portfolio/
+
+- When the build is complete, make a copy of docs/index.html and name it docs/404.html.
+
+- Commit your changes and push.
+
+- On the GitHub project page, configure it to publish from the docs folder.
