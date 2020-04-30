@@ -41,6 +41,12 @@ export class ProjectsComponent implements OnInit {
                     Technologies: Vanilla Javascript, HTML5 and CSS3`,
       link: `https://thales-notes.netlify.app`
     },
+    {
+      name: 'hangman',
+      description: `It is funny game app. You try to find the hidden word within 5 guesses letters.
+                    Technologies: Vanilla Javascript, HTML5 and CSS3`,
+      link: `https://thales-hangman.netlify.app`
+    },
   ]
 
   constructor() { }
